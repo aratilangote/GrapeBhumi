@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+       <item
+           android:id="@+id/refresh"
+           android:title="@string/txt_refresh"
+           android:icon="@drawable/ic_refresh"
+           android:iconTint="@color/teal_700"
+           />
+       <item
+           android:id="@+id/logout"
+           android:title="@string/txt_logout"
+           android:icon="@drawable/ic_logout"
+           android:iconTint="@color/teal_700"/>
+
+</menu>

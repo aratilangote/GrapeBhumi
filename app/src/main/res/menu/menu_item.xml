@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/txt_btnav_home"
+        android:enabled="true" />
+    <item
+        android:id="@+id/nav_crop_Care"
+        android:icon="@drawable/ic_crop"
+        android:title="@string/txt_btnav_cropcare"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/nav_weather"
+        android:icon="@drawable/ic_weather"
+        android:title="@string/txt_btnav_weather"
+        android:enabled="true"/>
+    <item
+        android:id="@+id/nav_video"
+        android:icon="@drawable/ic_video"
+        android:title="@string/txt_btnav_videos"
+        android:enabled="true"/>
+
+</menu>

@@ -1,0 +1,190 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GrapeBhumi</string>
+
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Signup Activity -->
+    <string name="signup_welcome">Welcome!</string>
+    <string name="signup_enter_name">Enter your name</string>
+    <string name="signup_enter_phone">Enter your mobile number</string>
+    <string name="enter_mail">Enter your Email</string>
+    <string name="signup_enter_pass">Enter password</string>
+    <string name="signup_confirm_pass">Confirm password</string>
+    <string name="signup_address">Enter address</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="signup_or">OR</string>
+    <string name="signup_alreadyhaveacc">Already have an account?</string>
+    <string name="signup_with">Sign in with</string>
+    <string name="signup">Sign In</string>
+
+    <!-- Login Activity -->
+    <string name="signin_welcomeback">Welcome Back!</string>
+    <string name="signin_enter_mail">Enter your Email</string>
+    <string name="signin_enter_pass">Enter password</string>
+    <string name="btn_signin">Sign In</string>
+    <string name="signin_forgot_pass">Forgot Password?</string>
+    <string name="signin_or">OR</string>
+    <string name="signin_donthaveacc">Don\'t have an account?</string>
+    <string name="signin_with">Sign Up with</string>
+    <string name="signin">Sign Up</string>
+
+    <!-- Home Fragment -->
+    <string name="home_frag_crop">Diagnose and treat your crop</string>
+    <string name="home_frag_weather">Check Current Weather Conditions</string>
+
+    <!-- Navigation Header -->
+    <string name="txt_logo_name">Grape Bhumi</string>
+
+    <!-- Navigation Drawer items -->
+    <string name="txt_home">Home</string>
+    <string name="txt_profile">Profile</string>
+    <string name="txt_others">Others</string>
+    <string name="txt_share">Share</string>
+    <string name="txt_privacypolicy">Privacy Policy</string>
+    <string name="txt_termscondictions">Terms &amp; conditions</string>
+    <string name="txt_aboutus">About Us</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_refresh">Refresh</string>
+
+    <!-- Bottom Navigation Menu Item -->
+    <string name="txt_btnav_home">Home</string>
+    <string name="txt_btnav_cropcare">Crop Care</string>
+    <string name="txt_btnav_videos">Videos</string>
+    <string name="txt_btnav_weather">Weather</string>
+    <string name="txt_btnav_advice">Advisory</string>
+
+    <!-- Profile Fragment -->
+    <string name="txt_full_name">Full name</string>
+    <string name="hint_name">Alex John</string>
+    <string name="txt_mobile_number">Mobile Number</string>
+    <string name="hint_mobile_number">9876543210</string>
+    <string name="txt_state">State</string>
+    <string name="txt_district">District</string>
+    <string name="txt_taluka">Taluka</string>
+    <string name="txt_village">Village</string>
+    <string name="txt_save_profile">Save Profile</string>
+
+    <!-- Bottom Crop Care Fragment -->
+    <string name="take_picture">Take Picture</string>
+    <string name="upload_picture">Upload Picture</string>
+    <string name="import_img">Import your image using camera</string>
+    <string name="check_output">Output is: </string>
+    <string name="related_info">Click me to check disease information</string>
+
+    <!-- Disease Information -->
+    <string name="info_title">Disease Information</string>
+    <string name="bul_blackrot">\u2022  Black Rot</string>
+    <string name="bul_downey">\u2022  Downy Mildew</string>
+    <string name="bul_esca">\u2022  Esca</string>
+    <string name="bul_leafblight">\u2022  Leaf Blight</string>
+    <string name="bul_powdery">\u2022  Powdery Mildew</string>
+    <string name="related_info_para">
+        \t\t\tGrape constitutes one of the most widely grown fruit crop in the India. Over one third of world are employed in agriculture and the quantity is gradually falling because the financial losses of the farmers. One of the causes behind this momentary loss is the shortage for era in agriculture.
+        \n\n\t\t\tGrape disease has become one of the major concerns for farmers and has now evolved into a significant threat to the quality of food consumed by the people. Hence, it becomes necessary to identify these diseases at the early stages of their growth and find possible solutions to avoid them.
+        \n\n\t\t\tGrape suffers from enormous loss due to the various leaf diseases like:
+    </string>
+
+    <!-- Black Rot Disease -->
+    <string name="symptoms">Symptoms:</string>
+    <string name="precautions">Precautions:</string>
+
+    <string name="blackrot_title">Black Rot Disease</string>
+    <string name="blackrot_info">\t\tBlack rot, caused by the fungus Guignardia bidwellii, is the most serious disease grapes in Tennessee. Precautions must be taken to protect grape plantings from this disease. The black rot fungus can attack many plant parts, including the leaves, shoots, flowers, tendrils, and fruit. The most damaging aspects of black rot are rotting of the berries and loss of leaves.
+    </string>
+    <string name="blackrot_symptomslist" tools:ignore="StringEscaping">\u2022 Leaf spots appear one to two weeks after infection. The spots are small, tan, and circular, enlarging to 1/8 to 1/4 inch in diameter.\n\u2022 The color of the leaf spots deepens to reddish brown, and the spots are bordered by a dark brown margin. \n\u2022 Numerous tiny black structures (pycnidia) of the fungus can be seen within the spot centres. \n\u2022 Pycnidia are the fruiting bodies of the fungus, and bear spores, which infect new tissue. \n\u2022 Black, sunken spots (lesions) appear on leaf stems and berry stems. Lesions on shoots are usually elongated and black. Pycnidia appear on stem lesions as small, black pimples. \n\u2022 Fruit symptoms begin as light brown, circular spots on immature berries.
+    </string>
+    <string name="blackrot_take_precautions">\t\tTo protect people and the environment, pesticides should be used safely. This is everyone’s responsibility, especially the user. Read and follow label directions carefully before you buy, mix, apply, store, or dispose of a pesticide. According to laws regulating pesticides, they must be used only as directed by the label.</string>
+
+    <!-- Downy Disease -->
+    <string name="downy_title">Downy Mildew Disease</string>
+    <string name="downy_info">\t\tLight and continuous rains or heavy dew associated with high humidity and low temperatures favours the development of the disease. The disease attacks the leaves, flowers, cluster and young fruits. Initial symptom appear as light yellow spots on the upper surface of young mature leaves with corresponding white spots on the lower side. Affected portions of the leaves turn brown and can not support the bunch development due to reduced photosynthetic activity. The losses are very high when the clusters are attacked before fruit set. Entire clusters decay, dry, and dropdown. Infected small berries turn brown and become mummified. Once berries begin softening and changing color, they cease to get infected.
+    </string>
+    <string name="downy_symptomslist" tools:ignore="StringEscaping">\u2022 Young, mature leaves first show signs of light yellow dots on their upper surface and similar white patches on their underside. \n\u2022 Due to decreased photosynthetic activity, the affected leaf sections turn brown and cannot sustain the bunch’s development. \n\u2022 There are significant losses when the clusters are damaged before the fruit set. \n\u2022 Whole clusters dry out, decompose, and collapse. \n\u2022 Small, infected berries turn brown and desiccate. Berries no longer get an infection after they start to soften and change color.
+    </string>
+    <string name="downy_take_precautions">\u2022 To reduce the damage caused by this disease, vines should be pruned after the second week of October. \n\u2022 At the time of pruning, all afflicted vine parts should be cut off and immediately killed. \n\u2022 Effective treatments for this disease include Bordeaux combination (1%), Copper Oxychloride (0.2%), Mancozeb (0.2%), Metalaxyl (0.2%), or Fosetyl Al (0.2%). \n\u2022 Compared to non-systemic ones, systemic fungicides are more efficient. \n\u2022 Systemic fungicides shouldn’t be sprayed more than 2-3 times.
+    </string>
+
+    <!-- Esca Disease -->
+    <string name="esca_title">Esca Disease</string>
+    <string name="esca_info">\t\tEsca is a Grapevine Trunk Disease (GTD) caused by a broad range of taxonomically unrelated fungal pathogens. These attack grapevine wood tissues inducing necroses even in the conductive vascular tissues, thus affecting the vine physiology and potentially leading to plant death. However, the influence of Esca on leaf and whole-plant water transport disruption remains poorly understood.
+    </string>
+    <string name="esca_symptomslist" tools:ignore="StringEscaping">\u2022 This disease may occur at any time during the growing season.  \n\u2022 The main symptom is an interveinal “striping” on the leaves, which is characterized by the discoloration and drying of the tissues around the main veins. \n\u2022 It usually shows as dark red in red varieties and yellow in white ones. Leaves can dry out completely and drop prematurely. \n\u2022 Om berries, small, round, dark spots, often bordered by a brown-purple ring, may occur. These fruit spots may appear at any time between fruit set and ripening. In severely affected vines, the berries often crack and dry. \n\u2022 Cross-sectional cuts through affected canes, spurs, cordons, or trunks reveal concentric rings formed by dark spots. \n\u2022 A severe form of Esca known as “apoplexy” results in a sudden dieback of the entire vine.
+    </string>
+    <string name="esca_take_precautions">\u2022 Use alternative pruning methods such as delayed pruning or double pruning.  \n\u2022 Avoid pruning during periods of heavy rainfall when spores are likely to be dispersed.  \n\u2022 Monitor the vineyard in Spring, and look for dead spurs or for stunted shoots. \n\u2022 Later in summer, cut off cankered portions of the vine. \n\u2022 Remove diseased debris from the vineyard and destroy them. \n\u2022 Delay fruiting for several years until vines have balanced root and shoot growth.
+    </string>
+
+    <!-- LeafBlight Disease -->
+    <string name="leafblight_title">Leaf Blight Disease</string>
+    <string name="leafblight_info">\t\tIt appears in the month of June and December. The disease attacks both leaves and fruits. Small yellowish spots first appear along the leaf margins, which gradually enlarge and turn into brownish patches with concentric rings. Severe infection leads to drying and defoliation of leaves. Symptoms in the form of dark brown-purplish patches appear on the infected berries, rachis and bunch stalk just below its attachment with the shoots.
+    </string>
+    <string name="leafblight_symptomslist" tools:ignore="StringEscaping">\u2022The pathogen only attacks leaves. At early stages of the disease, the leaves of infected vines develop faint, chlorotic spots, more marked on lower leaf blade. \n\u2022 As they grow in size during the season, irregular brown flecks develop in the center of the yellow spots, conferring them an angular appearance and making them more visible. \n\u2022 The symptoms may extend to the rest of the leaf, which eventually turns yellow and dies. \n\u2022 As the disease progresses, it can cause extensive defoliation by the end of the season. \n\u2022 The shortage of leaves results in reduced plant vigor and yield as well as a lesser quality of the grapes.
+    </string>
+    <string name="leafblight_take_precautions">\u2022 If available in the area, use more tolerant or resistant vine varieties. \n\u2022 Check the vineyard frequently for signs of the disease. \n\u2022 Keep vines healthy through a good fertilization program. \n\u2022 Avoiding excess late-season fertilizing. \n\u2022 Remove nearby wild muscadine vines around vineyards. \n\u2022 Prune the canopy cover so that it allows for good aeration of the foliage. \n\u2022 Keep field clean of plant residues after harvest.
+    </string>
+
+    <!-- Powdery Mildew Disease -->
+    <string name="powdery_title">Powdery Mildew Disease</string>
+    <string name="powdery_info">\t\tIt is the second most destructive disease after downy mildew but more important one in the viewpoint of export of fresh grapes, as it leaves blemishes on the affected berries and deforms them. The disease develops under warm and dry conditions. Shade or diffused light also helps in the development of this disease. The diseases is characterized by the presence of white powdery (ash like) coating in patches on both sides of the leaves, young shoots and immature berries. The affected leaves turn pale and curl up. Affected shoots remain weak and immature. \nThe buds affected during growing season, fail to sprout after October pruning. Thus the productivity of the cane and the number of productive canes are reduced. If blossoms are affected they fail to set fruit. When young berries are attacked they become corky. Berries attacked at 50% maturity turn dark and become distorted in shape. If severely attacked they are enveloped with a white powdery coating and crack eventually. Loss of yield results from both berry drop and reduced size of berries.
+    </string>
+    <string name="powdery_symptomslist" tools:ignore="StringEscaping">\u2022 The disease can be identified by areas of white, ash-like powder on the undersides of leaves, young shoots, and immature berries.   \n\u2022 The affected leaves become pale in colour and curl up. Affected shoots tend to be immature and frail. \n\u2022 After being pruned in October, the damaged buds from the growing season do not sprout. \n\u2022 As a result, both the cane’s productivity and the number of productive canes are decreased. \n\u2022 Blossoms that are harmed are unable to produce fruit. Young berries become corky when they are attacked. \n\u2022 They become covered in a white powdery layer after being extensively damaged, and eventually, they fracture.
+    </string>
+    <string name="powdery_take_precautions">\u2022 Spraying Wettable Sulphur (1.5kg/200 liters of water) will quickly and effectively eliminate powdery mildew.  \n\u2022 Spraying should be done carefully because it can burn the berry skin and leave tiny black flecks. \n\u2022 The dust should be evenly distributed across the sections of the damaged plants. \n\u2022 The disease can be controlled more effectively and for a longer period of time using systemic fungicides like Bayleton (1g/liter of water), Calaxin (3-4 ml/10 liters of water), or Benomyl (5g/10 liters of water.
+    </string>
+
+    <!-- Bottom Weather Fragment -->
+    <string name="weather_title">Check today\'s weather</string>
+    <string name="city">City</string>
+    <string name="enter_city">Enter your City</string>
+    <string name="classify_title">Let\'s check disease based on weather conditions</string>
+    <string name="text_classify">Due to uncertain environmental changes like uncertainly rain falling, heavy temperature or humidity, etc. are affect to grape plants which suﬀer from diseases in diﬀerent seasons, temperatures, and humidity. \nHere we have collected the weather data which includes various weather parameters(Temperature, Humidity, Rainfall) that can cause Downy Mildew Grape Disease that affect grape production and we have train model by using various machine learning algorithms. \nThe core strategy of this Work is to predict possibilities of Downy mildewbased on weather conditions. \nTo check Downy Mildew Risk (High,Medium,High) Click on the below link…..
+    </string>
+    <string name="classify_link">link</string>
+
+
+    <!-- Privacy Policy -->
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_text1">GrapeBhumi built the Grape Bhumi app as a Free app. This SERVICE is provided by GrapeBhumi at no cost and is intended for use as is. \nThis page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service. \nIf you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy. \nThe terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Grape Bhumi unless otherwise defined in this Privacy Policy.
+    </string>
+    <string name="privacy_head2">Information Collection and Use</string>
+    <string name="privacy_text2">For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way. \nThe app does use third-party services that may collect information used to identify you. \nLink to the privacy policy of third-party service providers used by the app \n\u2022 Google Play Services \n\u2022 Google Analytics for Firebase</string>
+    <string name="privacy_head4">Cookies</string>
+    <string name="privacy_text4">Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device\'s internal memory. \nThis Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service. </string>
+    <string name="privacy_head5">Service Providers</string>
+    <string name="privacy_text5">I may employ third-party companies and individuals due to the following reasons: \n\u2022 To facilitate our Service; \n\u2022 To provide the Service on our behalf; \n\u2022 To perform Service-related services; or \n\u2022 To assist us in analysing how our Service is used. \nI want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.</string>
+    <string name="privacy_head6">Security</string>
+    <string name="privacy_text6">I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.</string>
+    <string name="privacy_head7">Links to Other Sites</string>
+    <string name="privacy_text7">This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.</string>
+    <string name="privacy_head8">Changes to This Privacy Policy</string>
+    <string name="privacy_text8" tools:ignore="TypographyDashes">I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. \nThis policy is effective as of 2030-12-31</string>
+    <string name="privacy_head9">Contact Us</string>
+    <string name="privacy_text9">If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at grapebhumi@gmail.com.</string>
+
+    <!-- Terms and Conditions -->
+    <string name="terms_title">Terms and Conditions</string>
+    <string name="terms_text">GrapeBhumi is committed to ensuring that the app is as useful and efficient as possible. For that reason, we reserve the right to make changes to the app or to charge for its services, at any time and for any reason. We will never charge you for the app or its services without making it very clear to you exactly what you’re paying for. \nThe Grape Bhumi app stores and processes personal data that you have provided to us, to provide my Service. It’s your responsibility to keep your phone and access to the app secure. We, therefore, recommend that you do not jailbreak or root your phone, which is the process of removing software restrictions and limitations imposed by the official operating system of your device. It could make your phone vulnerable to malware/viruses/malicious programs, compromise your phone’s security features and it could mean that the Grape Bhumi app won’t work properly or at all. \nThe app does use third-party services that declare their Terms and Conditions.</string>
+    <string name="terms_head1">Changes to This Terms and Conditions</string>
+    <string name="terms_text1" tools:ignore="TypographyDashes">I may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Terms and Conditions on this page. These terms and conditions are effective as of 2030-12-31</string>
+    <string name="terms_head2">Contact Us</string>
+    <string name="terms_text2">If you have any questions or suggestions about my Terms and Conditions, do not hesitate to contact me at grapebhumi@gmail.com.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Hello home fragment</string>
+    <string name="profile_fragment">Hello profile fragment</string>
+    <string name="share_fragment">Hello share fragment</string>
+
+    <string name="aboutus_fragment">Aboutus fragment</string>
+    <string name="logout_fragment">Logout Fragmnet</string>
+
+    <string name="bottom_fragment_Home">Home</string>
+    <string name="bottom_fragment_cropcare">Crop Care</string>
+    <string name="bottom_fragment_weather">Weather</string>
+    <string name="bottom_fragment_videos">Videos</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
