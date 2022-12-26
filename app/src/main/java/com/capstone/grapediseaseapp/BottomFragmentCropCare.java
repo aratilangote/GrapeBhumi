@@ -31,6 +31,7 @@ import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
 
 import java.io.IOException;
 
+
 public class BottomFragmentCropCare extends Fragment {
 
     Button upload_picture, take_picture, btnInfo;
@@ -42,7 +43,6 @@ public class BottomFragmentCropCare extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        View view;
     }
 
     @Override
@@ -138,6 +138,8 @@ public class BottomFragmentCropCare extends Fragment {
 
             String[] classes = {"Black_Rot", "Downy_Mildew", "Esca", "Healthy", "Leaf_Blight", "Powdery_Mildew", "Oops! Wrong image detected."};
             result.setText(classes[maxPos]);
+
+
             // Releases model resources if no longer used.
             model.close();
         } catch (IOException e) {

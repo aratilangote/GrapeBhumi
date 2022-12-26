@@ -61,6 +61,23 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/downy_confirm_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/powdery_confirm"
+                android:fontFamily="@font/font_regular"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/symptoms"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -78,6 +95,40 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="@string/oc_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/powdery_oc"
+                android:fontFamily="@font/font_regular"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cc_titel"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/powdery_cc"
+                android:fontFamily="@font/font_regular"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="@string/precautions"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -87,6 +138,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/powdery_take_precautions"
+                android:fontFamily="@font/font_regular"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/downy_ai_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/powdery_ai"
                 android:fontFamily="@font/font_regular"
                 android:textSize="18sp"
                 android:textColor="@color/black"

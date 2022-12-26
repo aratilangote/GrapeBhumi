@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "177057912883",
-    "project_id": "grapebhumi-97944",
-    "storage_bucket": "grapebhumi-97944.appspot.com"
+    "project_number": "296645944279",
+    "project_id": "grapebhumi-capstone",
+    "storage_bucket": "grapebhumi-capstone.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:177057912883:android:22cf4447c036860c4ceb46",
+        "mobilesdk_app_id": "1:296645944279:android:2b8a64fb32ee68d363a192",
         "android_client_info": {
           "package_name": "com.capstone.grapediseaseapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "177057912883-pq5o1fmn8amgbhu8d60kd0959lk7hbs2.apps.googleusercontent.com",
+          "client_id": "296645944279-9hb95d3vv0qm03t2p29d9q6o4lqj9qi1.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAxJRdZC2URUIveu5WywinwRDdUh-3ZiDs"
+          "current_key": "AIzaSyBjqZaW1-B756YpHg9a-i-kjRcvWDZc3Q4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "177057912883-pq5o1fmn8amgbhu8d60kd0959lk7hbs2.apps.googleusercontent.com",
+              "client_id": "296645944279-9hb95d3vv0qm03t2p29d9q6o4lqj9qi1.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

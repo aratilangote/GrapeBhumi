@@ -43,11 +43,13 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_relatedInfo"
             android:text="@string/related_info"
-            android:textSize="15sp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
             android:fontFamily="@font/font_regular"
-            android:background="@color/white"
-            android:layout_marginTop="10dp"
-            android:layout_marginHorizontal="10dp"/>
+            android:background="@color/teal_700"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="8dp"
+            android:elevation="5dp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="300dp"

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/white"
     tools:context=".LoginActivity"
     android:fitsSystemWindows="true">
 
     <ImageView
+        android:id="@+id/display_pic2"
         android:layout_width="match_parent"
         android:layout_height="230dp"
         android:scaleType="fitXY"
@@ -18,6 +18,8 @@
         android:src="@drawable/grape_farmer1"
         android:contentDescription="TODO" />
     <TextView
+        android:id="@+id/display_txt3"
+        android:layout_below="@+id/display_pic2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/signin_welcomeback"
@@ -30,6 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/mailLayout"
+        android:layout_below="@id/display_txt3"
         android:layout_marginHorizontal="15dp"
         style="@style/Widget.Design.TextInputLayout"
         android:layout_marginTop="10dp"
@@ -49,6 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/passLayout"
+        android:layout_below="@id/mailLayout"
         android:layout_marginHorizontal="15dp"
         android:layout_marginTop="10dp"
         app:passwordToggleEnabled="true"
@@ -75,6 +79,7 @@
     </com.google.android.material.textfield.TextInputLayout>
     <Button
         android:id="@+id/signinBtn"
+        android:layout_below="@id/passLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="15dp"
@@ -88,6 +93,8 @@
         android:elevation="10dp"
         tools:ignore="TextContrastCheck" />
     <TextView
+        android:id="@+id/exist_acc"
+        android:layout_below="@+id/signinBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/signin_donthaveacc"
@@ -99,6 +106,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/signupBtn"
+        android:layout_below="@id/exist_acc"
         android:text="@string/btn_signup"
         android:layout_marginHorizontal="15dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Small"
@@ -106,5 +114,12 @@
         android:layout_marginTop="5dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/font_regular"/>
+    <ProgressBar
+        android:id="@+id/progressbar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:elevation="10dp"/>
 
-</LinearLayout>
+</RelativeLayout>

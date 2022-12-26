@@ -13,6 +13,7 @@ import android.widget.AdapterViewFlipper;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ContainerHome extends Fragment {
 
@@ -21,8 +22,7 @@ public class ContainerHome extends Fragment {
     private static final int[] images = {R.drawable.farm, R.drawable.grape_farm,
             R.drawable.grapegrowth, R.drawable.grape_types};
 
-    Button btn_arrow_cropcare, btn_arrow_weather;
-
+    Button BlackRot, Downy, Esca, LeafBlight, Powdery;
 
 
     public ContainerHome() {
@@ -49,21 +49,42 @@ public class ContainerHome extends Fragment {
         adaptFlipper.setAutoStart(true);
 
 
-        btn_arrow_cropcare = view.findViewById(R.id.btn_arrow_cropcare);
-        btn_arrow_weather = view.findViewById(R.id.btn_arrow_weather);
+        BlackRot = view.findViewById(R.id.info_txt1);
+        Downy = view.findViewById(R.id.info_txt2);
+        Esca = view.findViewById(R.id.info_txt3);
+        LeafBlight = view.findViewById(R.id.info_txt4);
+        Powdery = view.findViewById(R.id.info_txt5);
 
-        btn_arrow_cropcare.setOnClickListener(new View.OnClickListener() {
+        BlackRot.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view1) {
-                Intent intent = new Intent(view1.getContext(), BottomFragmentCropCare.class);
-                view1.getContext().startActivity(intent);
-
+            public void onClick(View view) {
+               startActivity(new Intent(getActivity().getApplicationContext(), BlackRotInfoActivity.class));
             }
         });
 
-        btn_arrow_weather.setOnClickListener(view12 -> {
-            Intent intent1 = new Intent(view12.getContext(), BottomFragmentWeather.class);
-            view12.getContext().startActivity(intent1);
+        Downy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                 startActivity(new Intent(getActivity().getApplicationContext(), DownyInfoActivity.class));
+            }
+        });
+        Esca.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity().getApplicationContext(), EscaActivity.class));
+            }
+        });
+        LeafBlight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity().getApplicationContext(), LeafBlightActivity.class));
+            }
+        });
+        Powdery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getActivity().getApplicationContext(), PowderyActivity.class));
+            }
         });
 
 
